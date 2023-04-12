@@ -1,0 +1,310 @@
+* {
+    font-family: arial;
+}
+
+/* HEADER */
+
+.header {
+    border: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.imgHeader {
+    display: flex;
+    padding: 25px;
+}
+
+.textHeader {
+    border: solid 1px white;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+#Nosoffres {
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#Nosvehicules {
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#Contact {
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#insconn {
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.BandeCouleur {
+    border: 10px solid #36C4B3;
+}
+
+/* FIN HEADER */
+
+
+
+/* DEBUT FORMULAIRE */
+
+.BlocFormulaire {
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    background-color: rgba(54, 196, 179, 0.25);
+}
+
+
+.formulaire {
+    display: flex;
+    border: 5px solid gray;
+    border-radius: 15px;
+    justify-content: center;
+    width: 20%;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+.blocphotovoiture{
+    display:flex;
+    justify-content: space-between;
+}
+
+.BoutonRechercher {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#Depart {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:100%;
+}
+
+#Ville {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:100%;
+
+}
+
+#Arriver {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:100%;
+}
+
+#BoutonRechercher {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #36C4B3;
+    color: white;
+    width: 70%;
+    padding: 2%;
+}
+
+/* FIN  FORMULAIRE */
+
+
+/* DEBUT BLOC OFFRES */
+
+.BlocOffres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 420px;
+    margin-bottom: 150px;
+}
+
+.figurelouez {
+    background-color: rgba(54, 196, 179, 0.25);
+    text-align: center;
+}
+
+.figureLocation {
+    background-color: rgba(54, 196, 179, 0.25);
+    text-align: center;
+}
+
+.figureDemenager {
+    background-color: rgba(54, 196, 179, 0.25);
+    text-align: center;
+
+}
+
+/* FIN BLOC OFFRES */
+
+
+
+/* DEBUT BLOC GAMMES */
+
+.BlocIconGammes {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    justify-content: space-between;
+
+}
+
+.BlocClio {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 90px;
+    justify-content: center;
+}
+
+#Textclio {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+li {
+    list-style: none;
+}
+
+/* FIN BLOC GAMMES */
+
+
+/* DEBUT FORMULAIRE 2 */
+
+.BlocFormulaireContact {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(54, 196, 179, 0.25);
+    padding-bottom: 50px;
+
+
+}
+
+.blocTitreContact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(54, 196, 179, 0.25);
+}
+
+
+.ZoneFormulaire {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.ZoneMessage {
+    display: inline-block;
+    margin: 50px;
+}
+
+#TextArea {
+    background-color: lightgray;
+}
+
+
+#Nom {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:130%;
+}
+
+#Prenom {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:130%;
+}
+
+#Email {
+    display: flex;
+    border: gray;
+    background-color: lightgrey;
+    padding: 5px;
+    width:130%;
+}
+
+#BoutonEnvoyer {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #36C4B3;
+    color: white;
+    width: 70%;
+    padding: 2%;
+    margin-left: 55px;
+
+}
+
+/* FIN  FORMULAIRE 2*/
+
+
+/* DEBUT FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.Textfooterbloc1 {
+    display: flex;
+    height: 200px;
+    width: 210px;
+    
+}
+
+.Textfooterbloc2 {
+    display: flex;
+    height: 200px;
+    width: 210px;
+}
+
+.Textfooterbloc3 {
+    display: flex;
+    height: 200px;
+    width: 260px;
+}
+
+.Textfooterbloc4 {
+    display: flex;
+    height: 200px;
+    width: 210px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* FIN FOOTER */
